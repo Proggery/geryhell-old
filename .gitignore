@@ -1,0 +1,5 @@
+.DS_Store
+wp-config.php
+upgrade
+wp-content/uploads/*
+!wp-content/uploads/.gitkeep
