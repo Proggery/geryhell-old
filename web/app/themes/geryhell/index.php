@@ -1,12 +1,3 @@
 <?php
-get_header();
 
-if (have_posts()) :
-  while (have_posts()) :
-    the_post();
-
-    get_template_part('template/content.blade');
-  endwhile;
-endif;
-
-get_footer();
+echo view(app('sage.view'), app('sage.data'))->render();
